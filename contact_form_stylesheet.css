@@ -1,0 +1,58 @@
+/* Contact Page Styles */
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    padding: 40px;
+}
+
+.contact-header {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+
+.contact-form {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+.contact-footer {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
